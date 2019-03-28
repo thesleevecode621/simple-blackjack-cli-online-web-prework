@@ -58,4 +58,5 @@ welcome
   
   end_game(total)
 end
+end
     
