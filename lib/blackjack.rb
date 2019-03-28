@@ -7,7 +7,7 @@ def deal_card(card=1..11)
 end
 
 def display_card_total(card)
-  puts "Your cards add up to#{card}"
+  puts "Your cards add up to #{card}"
   
 end
 
@@ -55,7 +55,7 @@ welcome
   until total > 21
     total = hit?(total)
   display_card_total(total)
-
+ end
   end_game(total)
 end
 
